@@ -1,0 +1,20 @@
+@media(width > 1440px){
+    .box{
+        width: 540px;
+    }
+    .es{
+        width: 444px;
+    }
+    .advice{
+        left: 225px;
+    }
+    .kamateli{
+        left: 235px;
+    }
+    .pauza{
+        width: 400px;
+        height: 200px;
+        left: 66px;
+        top: 300px;
+    }
+}
