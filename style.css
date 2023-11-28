@@ -67,8 +67,9 @@ body{
 }
 .kamateli:hover{
     cursor: pointer;
-    rotate: 180deg;
+    rotate: 600deg;
     transition: 2s;
+    scale: 1.5;
 
 }
 .gif{
@@ -82,3 +83,26 @@ body{
 .asd{
     display: none;
 }
+
+
+
+
+
+
+.loader {
+    border: 16px solid #5b6c86 ; /* Light grey */
+    border-top: 16px solid #53FFAA; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+    display: none;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .my{
+    display: block;
+  }

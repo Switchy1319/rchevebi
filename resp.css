@@ -17,4 +17,9 @@
         left: 66px;
         top: 300px;
     }
+    .loader{
+       position: absolute;
+       top: 180px;
+       left: 220px;
+    }
 }
